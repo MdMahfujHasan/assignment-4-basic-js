@@ -119,10 +119,9 @@ function perfectFriend(friendsName) {
             return element;
             break;
         }
-        // else {
-        //     return "no 5 string name found.";
-        //     break;
-        // }
+    }
+    if (element.length !== 5) {
+        return "no 5 string name found.";
     }
 }
 const fiveStringName = perfectFriend(friendsName);
